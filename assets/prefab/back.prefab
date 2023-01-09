@@ -255,7 +255,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "615b32ae-090d-404a-9cf7-52a985ccec60"
     },
     "fileId": "42jEvfU1NOvqKQ8hXPOCnd",
     "sync": false
@@ -327,7 +327,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "615b32ae-090d-404a-9cf7-52a985ccec60"
     },
     "fileId": "d2IrF5LFhLMZMb7E4D1K/7",
     "sync": false
@@ -413,7 +413,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "615b32ae-090d-404a-9cf7-52a985ccec60"
     },
     "fileId": "77WFI9e2lIj4wpl3S0mnuL",
     "sync": false
@@ -506,9 +506,7 @@
   },
   {
     "__type__": "cc.ClickEvent",
-    "target": {
-      "__id__": 9
-    },
+    "target": null,
     "component": "",
     "_componentId": "be50c4OYQdKTqHmvpItHiWG",
     "handler": "onClickSocial",
@@ -520,7 +518,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "615b32ae-090d-404a-9cf7-52a985ccec60"
     },
     "fileId": "ebqH/fz8hFiJFa/VmeYKQp",
     "sync": false
