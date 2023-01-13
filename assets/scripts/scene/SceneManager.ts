@@ -6,6 +6,9 @@ const { director } = cc;
 @ccclass
 export default class SceneManager extends cc.Component {
     switchScene(e: Event, sceneName: string) {
-        director.loadScene(sceneName as SocicalSceneEnum);
+        console.log("errr");
+        director.loadScene(sceneName);
     }
 }
+
+

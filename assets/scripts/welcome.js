@@ -24,7 +24,7 @@ cc.Class({
         var self = this;
         this.m_Loading.finishCallBack = function () {
             this.m_Loading.node.active = false;
-            self.m_Logo.active = false;
+            // self.m_Logo.active = false;
             this.m_LoginBg.active = true;
         }.bind(this);
 
@@ -40,8 +40,14 @@ cc.Class({
             }
             this.m_AccountLogin.show();
         } else if (data == "weChat") {
+                this.m_AccountLogin = cc.instantiate(this.m_AccountLoginPrefab);
+                this.node.addChild(this.m_AccountLogin);
+                this.m_AccountLogin = this.m_AccountLogin.getComponent("login");
    
         } else if (data == "tourist") {
+                this.m_AccountLogin = cc.instantiate(this.m_AccountLoginPrefab);
+                this.node.addChild(this.m_AccountLogin);
+                this.m_AccountLogin = this.m_AccountLogin.getComponent("login");
         }
     },
     showRegisterView: function () {
